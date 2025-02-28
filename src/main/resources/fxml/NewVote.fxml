@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<DialogPane prefHeight="120.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.edu.falcone_righi.LibrettoVoti.NewVoteController">
+   <content>
+      <VBox prefHeight="77.0" prefWidth="525.0">
+         <children>
+            <HBox prefHeight="35.0" prefWidth="541.0">
+               <children>
+                  <Label text="Esame">
+                     <HBox.margin>
+                        <Insets left="15.0" right="5.0" top="12.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="txtEsame">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Label text="Data">
+                     <HBox.margin>
+                        <Insets left="15.0" right="5.0" top="12.0" />
+                     </HBox.margin>
+                  </Label>
+                  <DatePicker fx:id="dtpData" prefHeight="25.0" prefWidth="132.0">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </DatePicker>
+                  <Label text="Voto">
+                     <HBox.margin>
+                        <Insets left="15.0" right="5.0" top="12.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="txtVoto" prefHeight="25.0" prefWidth="71.0">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="32.0" prefWidth="505.0">
+               <children>
+                  <Button fx:id="btnOK" mnemonicParsing="false" onAction="#onbtnOK" prefHeight="25.0" prefWidth="59.0" text="OK">
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btnCancel" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onbtnCancel" prefHeight="25.0" prefWidth="59.0" text="Cancel">
+                     <HBox.margin>
+                        <Insets left="340.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </content>
+</DialogPane>
