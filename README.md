@@ -16,7 +16,3 @@ Implementare le seguenti funzionalità, e sviluppare un programma di test (class
 1. creare un libretto "migliorato" in cui ciascun voto maggiore o uguale di 18 viene incrementato di 1 punto, e ciascun voto maggiore o ugale di 24 viene incrementato di 2 punti (senza superare il 30). Tenere _separati_ due libretti, e stamparli _entrambi_.
 1. stampare il libretto in ordine alfabetico di esame, ed in ordine numerico decrescente di voto
 1. cancellare dal libretto tutti i voti inferiori a 24
-
-_Nota 1_: pur nella sua semplicità, ciascun punto di questo esercizio permette di illustrare delle "trappole" comuni che si incontrano nella gestione delle liste.
-
-_Nota 2_: per il momento, la classe `Libretto` viene richiamata da un semplice `main` di prova (`TestLibretto.main`). Dovrà tuttavia essere progettata in modo da poter essere richiamata anche nel contesto di un'interfaccia grafica. A tal fine, creare le classi su indicate in un package dal nome `it.polito.tdp.libretto.model`.
